@@ -16,25 +16,29 @@
 
 .section-principal{
 	background: #ffffff;
-	margin: -4px 150px  150px;
+	margin: 0px 150px  150px;
 	padding: 0px;
  	  box-shadow: 1px 1px 4px black;
 } 
 /*Estilização para o cabeçalho*/
+select.escolha{
+	width: 120px;
+}
 .cabeçalho{
 	background:#ffffff;
+	height: 100px;
 }
 .logo{ 
  	background: #fff;
- 	width: 100px;
- 	height: 70px;	 
+ 	width: 150px;
+ 	height: 80px;	 
 }
-.logo img.img-logo{
-	width: 260px;
-	height: 200px;
+.img-logo{
+	width: 320px;
+	height: 220px;
 	position:absolute;
-	top: -64px;
-	left: 80px;
+	top: -70px;
+	left: -25px;
 }
 .texto-logo{
 	float:right;
@@ -45,6 +49,13 @@
 	position: relative;
 	top: -70px;
 }
+/* Estilização icon */
+.icon-grafi{
+	font-size: 25px;
+}
+.icon-re{
+	font-size: 50px;
+}
 /*Estilização para os menu principal*/
 
 .menu{
@@ -53,6 +64,7 @@
 	font-size: 14px;
 	 margin: -15px 0px  0px;
 	padding: 0px;
+	position: relative;
 }
 .menu .nav-menu{
 	list-style: none;

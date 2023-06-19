@@ -19,30 +19,57 @@
 </head>
 <body>
     <section class="container section-principal">
-        <main class="cabeçalho-principal">
-            <div class="row cabeçalho">
-                <div class="logo">
-                       <img src="img/Logo 1-Recovered.png"alt="Africell" class="img-logo">
-                </div>
-                <div class="texto-logo">
-                    <div class="inpt">
-                        <input type="text" name="" placeholder="Português" class="inpt-texto">
+        <main class="container cabeçalho-principal">
+            <div class="cabeçalho">
+                <div class="container">
+                    <div class="row">
+                      <div class="col">
+                        <img src="../Projetos-Africell/img/Logo 1-Recovered.png" alt="" class="img-fluid img-logo">
+                      </div>
+                      <div class="col">
+                        Column
+                      </div>
+                      <div class="col">
+                        <div class="row m-2">
+                            <div class="col m-1">
+                                <label class="visually-hidden" for="inlineFormSelectPref">Idioma</label>
+                                <select class="form-select escolha" id="inlineFormSelectPref">
+                                  <option selected>Idioma</option>
+                                  <option value="1">Português</option>
+                                  <option value="2">Englês</option>
+                                  <option value="3">Françes</option>
+                                </select>
+                              </div>  
+                                 
+                                   <div class="col mt-1">
+                                    <a href="#">Ajuda</a>  
+                                   </div>
+                                   <div class="col mt-1">
+                                    <a href="#">iniciar-sessão</a>
+                                   </div>
+                          </div>
+                          <div class="row mt-2">
+                            <div class="col">
+                                <i class="bi bi-envelope-fill icon-grafi"></i>
+                               </div>
+                               <div class="col">
+                                <i class="bi bi-bar-chart icon-grafi"></i>
+                               </div>
+                               <div class="col">
+                                <i class="bi bi-arrow-down-up icon-grafi"></i>
+                               </div>
+                               <div class="col">
+                                <i class="bi bi-display icon-grafi"></i>
+                               </div>
+                          </div>
+                      </div>
                     </div>
-                    <div class="ajuda">
-                        <a href="#" class="paragrafo-1">Ajuda</a> 
-                    </div>
-                    <div class="Inicio-sessão">
-                        <a href="#" class="sessão">iniciar-sessão</a>
-                    </div>
-                    <div class="icon-logo">
-                        
-                    </div>
-                </div>
+                  </div>
+                  
             </div>
         </main>
-        <section class="container-menu">
-            <nav class="menu">
-                <div class="navbar-menu">
+        <section class="container container-menu">
+            <nav class="container menu">
                     <ul class="nav-menu">
           <li class="nav-list">
             <a class="link-nav active" aria-current="page" href="#">Inicio</a>
@@ -64,12 +91,14 @@
             <a class="link-nav active" href="#" target="_blank">Mais</a>
           </li>
       </ul>
-                </div>
             </nav>
             <section class="Arias">      
                  <aside class="elementos-centralizado">
                     <div class="unidade-africell">
                         <div class="unidade">
+                            <div class="icon-rede">
+                                <i class="bi bi-bar-chart mt-10 icon-re"></i>
+                            </div>
                             <h1 class="texto-unidade">4G</h1>
                         </div>
                         <div class="africell">
