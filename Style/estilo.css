@@ -15,7 +15,7 @@
 /*Estilazação para aria principal*/
 
 .section-principal{
-	background: #ffffff;
+
 	margin: 0px 150px 150px;
 } 
 /*Estilização para o cabeçalho*/
@@ -29,11 +29,10 @@ select.escolha{
 	color: black;
 }
 .cabeçalho{
-	background:#ffffff;
+ 
 	height: 100px;
 }
 .logo{ 
- 	background: #fff;
  	width: 150px;
  	height: 80px;	 
 }
