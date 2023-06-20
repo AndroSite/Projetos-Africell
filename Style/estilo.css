@@ -16,13 +16,17 @@
 
 .section-principal{
 	background: #ffffff;
-	margin: 0px 150px  150px;
-	padding: 0px;
- 	  box-shadow: 1px 1px 4px black;
+	margin: 0px 150px 150px;
 } 
 /*Estilização para o cabeçalho*/
 select.escolha{
-	width: 120px;
+	width: 100px;
+	height: 30px;
+}
+.font{
+	font-size: 12px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: black;
 }
 .cabeçalho{
 	background:#ffffff;
@@ -38,23 +42,44 @@ select.escolha{
 	height: 220px;
 	position:absolute;
 	top: -70px;
-	left: -25px;
+	left: 50px;
 }
 .texto-logo{
 	float:right;
 	padding: 2px;
 	width: 300px;
 	margin: 2px;
-	background: #039;
+	background: rgb(4, 4, 153);
 	position: relative;
 	top: -70px;
+}
+/* Estilização do icone no cabeçalho */
+.moda-1{
+margin-left: -60px;
+margin-bottom: 10px;
+} 
+.moda-2{
+ width: 30px;
+ height: 20px;
+ margin-top: -8px;
+}
+.moda-3{
+	margin-left: 90px;
 }
 /* Estilização icon */
 .icon-grafi{
 	font-size: 25px;
 }
 .icon-re{
-	font-size: 50px;
+	font-size: 120px;
+	margin-top: -50px;
+}
+.bateria{
+	font-size: 30px;
+}
+.trafico-unidade{
+	font-size: 25px;
+	color: green;
 }
 /*Estilização para os menu principal*/
 
@@ -69,17 +94,34 @@ select.escolha{
 .menu .nav-menu{
 	list-style: none;
 	text-transform: uppercase;
+	background-color: #50062e;
+	color: #ffffff;
 }
 .menu .nav-list{
 	display: inline-block;
-	background-color: #50062e;
+	 
 	padding: 8px;
 	margin: 2px;
-}
-.menu .nav-list .link-nav{
+	font-family: Verdana, sans-serif;
 	text-decoration: none;
-	color: #ffffff;
+	text-align: center;
+	transition: transform 0.2s
 }
+ .menu .link-nav{
+	color: #ffffff;
+	transition: all 0.2s;
+ }
+
+.menu .link-nav:hover{
+	color: #50062e;
+ }
+.menu .nav-list:hover{
+	text-align: center;
+	background-color: #93e8f7;
+	 border-radius: 10px 10px 10px 10px;
+	transform: scale(1.1);
+}
+ 
 /*Estilização para aria*/
 .container-menu .Arias{
 	height: 200px;
@@ -89,7 +131,6 @@ select.escolha{
 }
 /*Estilização para elementos-centralizado*/
 .elementos-centralizado{
-	background-color: #ffffff;
 	width: 500px;
 	height: 200px;
 	margin: auto;
@@ -103,8 +144,8 @@ select.escolha{
 	width: 50px;
 	height: 50px;
 	position: relative;
-	left:0px;
-	top: 90px;
+	left:15px;
+	top: -18px;
 }
 .unidade-africell .unidade .texto-unidade{
 	font-family: Arial;
@@ -116,8 +157,8 @@ select.escolha{
 }
 .unidade-africell .africell{
 	float: right;
-	width: 20px;
-	height: 20px;
+	width: 200px;
+	height: 50px;
 	margin:auto;
 	padding: auto;
 	position: relative;
@@ -131,8 +172,17 @@ select.escolha{
 	text-align: center;
 	margin-top: 20px;
 }
+.icon-unidade{
+	background-color:#0d5ff5;
+	width: 100px;
+	height: 40px;
+	border-radius: 10px 10px 10px 10px;
+}
+.texto-unidade{
+	margin-top: -60px;
+}
 /*Estilização para o rodapé*/
-footer{
+footer.forter{
 	background: #50062e;
 	height: 30px;
 }
