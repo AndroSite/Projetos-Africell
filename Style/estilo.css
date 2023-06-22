@@ -15,7 +15,6 @@
 /*Estilazação para aria principal*/
 
 .section-principal{
-
 	margin: 0px 150px 150px;
 } 
 /*Estilização para o cabeçalho*/
@@ -24,12 +23,14 @@ select.escolha{
 	height: 30px;
 }
 .font{
-	font-size: 12px;
+	font-size: 10px;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	color: black;
 }
+.cabeçalho-principal{
+	min-height: 100px;
+}
 .cabeçalho{
- 
 	height: 100px;
 }
 .logo{ 
@@ -65,6 +66,51 @@ margin-bottom: 10px;
 .moda-3{
 	margin-left: 90px;
 }
+.Estado-wlan{
+	border-left: 1px solid rgba(221, 215, 218, 0.507);
+	min-height: 300px;
+	opacity:1;
+	 
+}
+.section-border{
+	border-left: 1px solid rgba(221, 215, 218, 0.507);
+	min-height: 600px;
+	opacity:1;
+}
+/* Estilização para botton */
+.bottom-start{
+	background-color: #0d5ff5;
+	color: #ffffff;
+	border-radius: 8px 8px 8px 8px;
+	border-color: #0d5ff5;
+	font-family: Arial, Helvetica, sans-serif;
+	cursor: pointer;
+	font-size: 14px;
+	transition: ease-in-out 0.2s;
+}
+.bottom-start:hover{
+	transform: scale(1.1);
+	 border: none;
+
+}
+.botão-enviar{
+	background-color: #0d5ff5;
+	color: #ffffff;
+	border-radius: 8px 8px 8px 8px;
+	border-color: #0d5ff5;
+	font-family: Arial, Helvetica, sans-serif;
+	cursor: pointer;
+	font-size: 13px;
+	transition: ease-in-out 0.2s;
+}
+	.link-botão{
+		color: #ffffff;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+	}
+.botão-enviar:hover{
+	transform: scale(1.1);
+	border: none;
+}
 /* Estilização icon */
 .icon-grafi{
 	font-size: 25px;
@@ -80,13 +126,33 @@ margin-bottom: 10px;
 	font-size: 25px;
 	color: green;
 }
+.icones-likn{
+	font-size: 10px;
+}
+/* Estilização par bordas */
+.border-left{
+	border-left: #50062e;
+	width: 5px;
+	height: 100%;
+}
+/* Estilização para os meus titilos */
+.title-h3{
+	color: #0d5ff5;
+
+}
+.title-p-1{
+	font-size: 12px;
+	font-weight: 300;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: #50062e;
+}
 /*Estilização para os menu principal*/
 
 .menu{
 	background:#50062e;
 	font-family:Verdana;
 	font-size: 14px;
-	 margin: -15px 0px  0px;
+	 margin: -10px 0px  0px;
 	padding: 0px;
 	position: relative;
 }
@@ -120,8 +186,15 @@ margin-bottom: 10px;
 	 border-radius: 10px 10px 10px 10px;
 	transform: scale(1.1);
 }
- 
+/* Estilização de imagens */
+.img-facv-rodap{
+	width: 80px;
+	height: 80px;
+	position: relative;
+	 
+}
 /*Estilização para aria*/
+ 
 .container-menu .Arias{
 	height: 200px;
 	background: #93e8f7;
@@ -180,12 +253,61 @@ margin-bottom: 10px;
 .texto-unidade{
 	margin-top: -60px;
 }
+/* Estilização para box */
+.box-clentes{
+	border: 1px solid #50062e;
+}
+.box-subtle{
+	background-color:#dfe2de;
+}
+.box-link-div .box-col-div{
+	background: #dfe2de;
+	border: 1px solid #c9cfda8a;
+	margin: 5px;
+	border-radius: 4px 4px 4px 4px;
+	transition: all 0.2s;
+ }
+.box-link-div .box-col-div:hover{
+	  background: #9d9e9d;
+	 color: #ffffff;
+ }
+.box-link-div h3{
+	margin: 4px;
+	font-size: 16px;
+	color: #50062e;
+	font-family: Arial, Helvetica, sans-serif;
+ }
+.font-box{
+	font-size: 13px;
+}
 /*Estilização para o rodapé*/
 footer.forter{
 	background: #50062e;
-	height: 30px;
+	min-height: 20px;
+}
+.footer-central{
+height: 50px;
+}
+.box-footer{
+height: 30px;
 }
 .aria-trabalho{
 	background: #ffffff;
-	min-height: 500px;
+	min-height: 300px;
+}
+.link-rodape{
+	text-decoration:none;
+	color: #50062e;
+	font-size: 13px;
+	font-family: Tahoma, sans-serif;
+	transition: all 0.2s;
+}
+.link-rodape:hover{
+	color: #0d5ff5;
+	text-decoration: underline;
+
+}
+.footer-mensag{
+	background: #dfe2de;
+	min-height: 50px;
 }
